@@ -221,6 +221,13 @@ File system API
   :param callback: A notification callback function that is invoked on completion of the synchronization. If an error occurred, it will be provided as a parameter to this function.
 
 
+.. js:function:: FS.chdir(path)
+
+  Sets the current working directory.
+
+  :param string path: The path name for the new directory node.
+
+
 .. js:function:: FS.mkdir(path, mode)
 
   Creates a new directory node in the file system. For example:
